@@ -1,0 +1,86 @@
+.contentDisplay{
+    display: grid;
+    grid-template-rows: min-content auto;
+}
+
+
+.navBack{
+    background: #424242;
+}
+
+.navTitle{
+    color: white;
+    font-family: Lobster;
+}
+
+
+#Main{
+    background:url('img/4.jpg');
+    background-size: cover;
+}
+#overlay{
+    background:rgba(32, 32, 32, 0.29);
+    
+}
+
+
+
+.center{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.squareContainer{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.square{
+    background: white;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+.inputs{
+    margin-right: 20px;
+    width: 60px;
+    padding: 7.5px 0;
+    border-radius: 10px;
+    padding-left: 8px;
+    border: 0;
+}
+
+#message{
+    padding: 5px 20px;
+    visibility: hidden;
+}
+
+#msgContainer{
+    
+    margin-top: 25px;
+}
+
+#cube{
+    height: 18px;
+    padding-left: 8px;
+    margin-top: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
